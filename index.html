@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alışveriş Listesi Uygulaması</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="block is-flex is-justify-content-center is-flex-wrap-wrap is-align-items-center" id="arkaplan">
+        <div class="box" style="width: 750px">
+            <h1 class="title has-text-centered">Alışveriş Listesi Uygulaması</h1>
+            <div class="field has-addons is-justify-content-center">
+                <div class="control">
+                    <input class="input" type="text" placeholder="Elma" id="alan">
+                </div>
+                <div class="control">
+                    <a class="button is-info" onclick="ekle()">
+                        Ekle
+                    </a>
+                </div>
+            </div>
+            <div class="is-flex is-justify-content-center is-flex-direction-column" id="bolumler">
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
