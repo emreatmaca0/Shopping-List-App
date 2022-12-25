@@ -1,3 +1,3 @@
 # Shopping List App
 
-Temel düzey **ekleme**, **düzenleme** ve **silme** işlemlerini içeren bir alışveriş listesi uygulaması
+A shopping list app with basic level **add**, **edit** and **delete** operations
